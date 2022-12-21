@@ -32,6 +32,12 @@ body{
     justify-content: space-between;
     box-sizing: border-box;
 }
+.card img{
+    background: none; 
+}
+.card h2{
+    background: none;
+}
 .right-content{
     width: 50%;
     text-align: center;
