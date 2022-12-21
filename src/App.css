@@ -1,5 +1,6 @@
-*{
-  background-color: #D9D9D9;
+body {
+  background: rgb(255,69,0);
+background: linear-gradient(180deg, rgba(255,69,0,0.908000700280112) 0%, rgba(231,177,177,1) 17%, rgba(217,217,217,1) 100%);
 }
 
 .App {

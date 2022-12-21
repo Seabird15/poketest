@@ -10,10 +10,10 @@ const Card = ({ pokemon, loading, infoPokemon }) => {
         pokemon.map((item) => {
           return (
             <>
-              <div className="card" key={item.id} onClick={()=>infoPokemon(item)}>
+              <div className="card bg-sky-500 hover:bg-red-200 cursor-pointer" key={item.id} onClick={()=>infoPokemon(item)}>
                 <h2>{item.id}</h2>
                 <img src={item.sprites.front_default} alt="" />
-                <h2>{item.name}</h2>
+                <h2 className="font-extrabold">{item.name}</h2>
               </div>
             </>
           );

@@ -14,16 +14,14 @@ const Main = () => {
   const [prevUrl, setPrevUrl] = useState();
   const [pokeDex, setPokeDex] = useState();
 
-  const pokeFun = async () => {
-    setLoading(true);
-    const res = await axios.get(url);
-    //console.log(res.data.results)
+  const pokeFun=async()=>{
+    setLoading(true)
+    const res=await axios.get(url);
     setNextUrl(res.data.next);
     setPrevUrl(res.data.previous);
-    getPokemon(res.data.results);
-    setLoading(false);
-    //console.log(pokeData)
-  };
+    getPokemon(res.data.results)
+    setLoading(false)
+}
 
   const getPokemon = async (res) => {
     res.map(async (item) => {
@@ -36,15 +34,17 @@ const Main = () => {
     });
   };
 
-  useEffect(() => {
+  useEffect(()=>{
     pokeFun();
-  }, [url]);
+},[url])
 
   return (
     <>
+
       <div>
-        <img src="./images/logopoke.png" className="mx-auto w-96"  alt=""/>
+        <img src="https://fontmeme.com/permalink/221221/f92f0dac333d823dff54557d9f035fa4.png" className="mx-40" alt="" />
         {/* <h1 className="bg-orange-600 p-2.5">POKEMON</h1> */}
+        <p>By Dani.L Aravena</p>
       </div>
       <div className="container">
         <div className="left-content">
