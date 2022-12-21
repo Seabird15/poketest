@@ -2,7 +2,7 @@
   "name": "poketest",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Seabird15.github.io/poketest",
+  "homepage": "http://seabird15.github.io/poketest",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
