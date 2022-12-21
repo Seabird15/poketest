@@ -8,12 +8,7 @@ import './App.css';
 function App() {
   return( 
   <div className='App'>
-    <BrowserRouter>
-      <Routes>
-        <Route path='/' element={<Main/>}></Route>
-        <Route path='#' ></Route>
-      </Routes>
-    </BrowserRouter>
+      <Main/>
     </div> 
   );
 }
