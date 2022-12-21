@@ -39,10 +39,10 @@ body{
     background: none;
 }
 .right-content{
-    width: 50%;
+    width: 80%;
     text-align: center;
     color: black;
-    top:100px;
+    top:0px;
     right: 5px;
 }
 .right-content img{
