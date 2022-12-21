@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/poketest/static/css/main.699ff2b8.css",
+    "main.js": "/poketest/static/js/main.97a1daa2.js",
+    "index.html": "/poketest/index.html",
+    "main.699ff2b8.css.map": "/poketest/static/css/main.699ff2b8.css.map",
+    "main.97a1daa2.js.map": "/poketest/static/js/main.97a1daa2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.699ff2b8.css",
+    "static/js/main.97a1daa2.js"
+  ]
+}
